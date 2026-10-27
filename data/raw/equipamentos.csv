@@ -1,0 +1,541 @@
+id_equipamento,tipo,fabricante,setor,ano_instalacao,horas_uso_dia,temperatura_operacao_c,consumo_medio_kwh,custo_pecas_eur,custo_mao_obra_eur,criticidade,em_uso,custo_aquisicao_eur,avaria
+EQ0001,Desfibrilhador,Mindray,Bloco Operatorio,2007.0,19.0,32.2,4.05,1180.0,547.0,baixa,sim,8093.0,0
+EQ0002,Desfibrilhador,Siemens,Enfermaria,2011.0,11.1,36.4,,1220.0,506.0,baixa,sim,12836.0,0
+EQ0003,Bomba Infusora,Siemens,Bloco Operatorio,2006.0,15.1,33.3,2.44,1364.0,276.0,alta,sim,15769.0,0
+EQ0004,Bomba Infusora,Drager,Imagiologia,2019.0,6.0,35.7,,1015.0,445.0,alta,nao,9241.0,0
+EQ0005,Ventilador,Mindray,Urgencia,2021.0,11.0,30.8,5.27,796.0,357.0,baixa,sim,21565.0,0
+EQ0006,Ventilador,GE Healthcare,Urgencia,2019.0,5.6,40.0,2.33,329.0,335.0,alta,nao,13378.0,0
+EQ0007,Eletrocardiografo,GE Healthcare,Enfermaria,2015.0,7.2,22.5,3.26,915.0,251.0,alta,sim,13370.0,0
+EQ0008,Eletrocardiografo,GE Healthcare,Imagiologia,2017.0,12.1,33.1,4.04,738.0,537.0,alta,sim,13383.0,0
+EQ0009,Desfibrilhador,Siemens,Urgencia,2010.0,10.1,37.6,1.76,609.0,515.0,alta,sim,19739.0,0
+EQ0010,Bomba Infusora,Siemens,Imagiologia,2020.0,12.9,34.6,4.26,1041.0,530.0,alta,sim,10463.0,0
+EQ0011,Monitor,Mindray,UCI,2005.0,11.0,37.0,3.81,903.0,403.0,alta,sim,21066.0,0
+EQ0012,Bomba Infusora,Mindray,UCI,2009.0,6.6,26.5,3.72,788.0,326.0,baixa,sim,,0
+EQ0013,Bomba Infusora,Drager,Enfermaria,2007.0,15.7,37.8,4.33,553.0,484.0,baixa,sim,8198.0,0
+EQ0014,Bomba Infusora,Drager,Bloco Operatorio,2017.0,13.9,35.5,1.98,847.0,437.0,baixa,sim,12145.0,0
+EQ0015,Ventilador,Drager,Bloco Operatorio,2006.0,10.0,,5.6,1038.0,426.0,alta,sim,25812.0,1
+EQ0016,Desfibrilhador,Drager,Enfermaria,2024.0,8.5,33.5,5.1,429.0,465.0,baixa,sim,,0
+EQ0017,Bomba Infusora,Siemens,Enfermaria,2007.0,10.0,35.1,3.47,386.0,332.0,baixa,nao,17827.0,0
+EQ0018,Bomba Infusora,Mindray,Urgencia,2005.0,14.0,34.3,2.73,1072.0,413.0,baixa,sim,13546.0,0
+EQ0019,Bomba Infusora,Mindray,Bloco Operatorio,2021.0,14.1,42.5,1.84,925.0,590.0,Alta,sim,26787.0,0
+EQ0020,Monitor,Siemens,Urgencia,2010.0,8.6,33.3,3.7,688.0,448.0,alta,sim,20007.0,0
+EQ0021,Ventilador,Mindray,UCI,2020.0,14.7,32.4,0.37,1298.0,267.0,baixa,sim,17033.0,1
+EQ0022,Bomba Infusora,Siemens,Enfermaria,2017.0,,32.9,2.48,370.0,325.0,baixa,sim,,0
+EQ0023,Eletrocardiografo,Mindray,UCI,2005.0,10.4,32.2,2.06,783.0,291.0,alta,nao,8517.0,0
+EQ0024,Eletrocardiografo,GE Healthcare,Urgencia,2023.0,12.2,36.9,4.3,990.0,577.0,baixa,sim,19222.0,0
+EQ0025,Monitor,Philips,UCI,2019.0,11.6,35.3,2.02,568.0,635.0,baixa,sim,24062.0,0
+EQ0026,Monitor,GE Healthcare,Imagiologia,2011.0,12.2,31.5,2.3,885.0,395.0,baixa,sim,22211.0,0
+EQ0027,Bomba Infusora,Siemens,Bloco Operatorio,2018.0,9.7,36.7,3.17,806.0,80.0,alta,nao,24968.0,0
+EQ0028,Eletrocardiografo,Drager,Urgencia,2024.0,10.6,32.0,3.17,1055.0,332.0,baixa,sim,16995.0,0
+EQ0029,Bomba Infusora,Drager,Bloco Operatorio,2021.0,,,3.91,736.0,339.0,baixa,sim,12836.0,0
+EQ0030,Bomba Infusora,GE Healthcare,UCI,2018.0,9.3,31.6,2.15,716.0,321.0,baixa,sim,27485.0,0
+EQ0031,Ventilador,Siemens,Enfermaria,2005.0,13.8,29.4,2.18,356.0,331.0,baixa,sim,17802.0,0
+EQ0032,Desfibrilhador,GE Healthcare,Imagiologia,2024.0,22.0,64.3,10.12,652.0,233.0,alta,sim,16703.0,0
+EQ0033,Bomba Infusora,Mindray,Imagiologia,2017.0,16.2,33.6,1.69,563.0,210.0,alta,sim,11162.0,0
+EQ0034,Desfibrilhador,Philips,Bloco Operatorio,2022.0,11.6,37.8,2.96,791.0,470.0,baixa,sim,14779.0,1
+EQ0035,Ventilador,Mindray,Enfermaria,2024.0,6.8,31.3,6.37,740.0,499.0,baixa,sim,,0
+EQ0036,Monitor,GE Healthcare,Bloco Operatorio,2011.0,14.8,35.3,3.08,515.0,587.0,baixa,nao,21600.0,0
+EQ0037,Bomba Infusora,Siemens,Urgencia,2005.0,15.1,45.2,1.97,407.0,572.0,baixa,sim,13726.0,0
+EQ0038,Eletrocardiografo,Siemens,Enfermaria,2017.0,15.9,21.6,,1159.0,464.0,baixa,sim,23085.0,0
+EQ0039,Eletrocardiografo,Philips,Enfermaria,2019.0,14.2,34.0,,373.0,546.0,alta,nao,,0
+EQ0040,Desfibrilhador,Siemens,Bloco Operatorio,2021.0,12.9,32.7,5.3,370.0,439.0,baixa,sim,17265.0,0
+EQ0041,Eletrocardiografo,GE Healthcare,Bloco Operatorio,2006.0,10.9,39.1,4.4,713.0,578.0,alta,nao,6133.0,0
+EQ0042,Eletrocardiografo,Mindray,UCI,2017.0,12.8,31.9,2.47,456.0,540.0,baixa,sim,13561.0,0
+EQ0043,Monitor,Siemens,Imagiologia,2013.0,6.3,,4.08,356.0,216.0,baixa,nao,27416.0,0
+EQ0044,Eletrocardiografo,GE Healthcare,Urgencia,2019.0,16.2,32.3,,704.0,526.0,baixa,nao,20852.0,0
+EQ0045,Eletrocardiografo,Drager,Urgencia,2016.0,11.4,34.5,1.27,390.0,411.0,baixa,sim,25442.0,1
+EQ0046,Desfibrilhador,Siemens,Enfermaria,2021.0,12.3,34.5,4.08,307.0,448.0,baixa,sim,21450.0,0
+EQ0047,Monitor,Siemens,Urgencia,2011.0,10.0,38.9,2.23,984.0,281.0,baixa,sim,4490.0,0
+EQ0048,Monitor,Philips,Bloco Operatorio,1799.0,17.2,32.2,,866.0,386.0,alta,nao,18460.0,0
+EQ0049,Monitor,Drager,Imagiologia,2010.0,9.6,35.3,4.08,1292.0,213.0,alta,sim,25220.0,0
+EQ0050,Eletrocardiografo,Siemens,Urgencia,2010.0,9.4,33.2,2.9,797.0,417.0,alta,nao,,0
+EQ0051,Bomba Infusora,Siemens,Imagiologia,2007.0,15.6,34.0,4.87,1401.0,392.0,alta,nao,15120.0,0
+EQ0052,Desfibrilhador,Mindray,Enfermaria,2005.0,15.6,39.3,2.48,277.0,519.0,baixa,sim,18223.0,0
+EQ0053,Desfibrilhador,Siemens,Urgencia,2012.0,10.4,40.8,2.19,254.0,642.0,baixa,sim,,0
+EQ0054,Desfibrilhador,Siemens,Imagiologia,2009.0,16.8,35.6,3.9,830.0,573.0,baixa,sim,25708.0,0
+EQ0055,Eletrocardiografo,Philips,Enfermaria,2015.0,11.8,32.9,3.86,798.0,213.0,alta,sim,17358.0,0
+EQ0056,Ventilador,Philips,Enfermaria,2013.0,16.2,,3.21,949.0,623.0,alta,nao,11481.0,0
+EQ0057,Eletrocardiografo,Mindray,Enfermaria,2019.0,13.7,36.6,4.38,565.0,470.0,alta,Sim,26282.0,0
+EQ0058,Eletrocardiografo,Drager,Bloco Operatorio,2016.0,15.2,35.9,4.09,1011.0,426.0,baixa,sim,17041.0,0
+EQ0059,Eletrocardiografo,Drager,Imagiologia,2015.0,13.7,32.8,3.56,1370.0,582.0,baixa,sim,16957.0,0
+EQ0060,Desfibrilhador,Mindray,Bloco Operatorio,2007.0,9.9,27.2,4.68,671.0,549.0,baixa,nao,18101.0,1
+EQ0061,Bomba Infusora,Drager,Urgencia,2013.0,16.7,33.2,1.04,594.0,535.0,baixa,nao,18343.0,0
+EQ0062,Eletrocardiografo,Drager,Imagiologia,2013.0,7.8,37.8,3.28,809.0,411.0,baixa,sim,11202.0,0
+EQ0063,Eletrocardiografo,GE Healthcare,Bloco Operatorio,2020.0,13.5,38.9,1.85,592.0,565.0,baixa,sim,17822.0,0
+EQ0064,Bomba Infusora,GE Healthcare,Urgencia,2017.0,17.6,32.4,4.8,585.0,281.0,baixa,sim,20521.0,0
+EQ0065,Ventilador,GE Healthcare,UCI,2010.0,11.8,26.8,4.98,1161.0,637.0,baixa,sim,11544.0,0
+EQ0066,Eletrocardiografo,Drager,Imagiologia,2007.0,3.0,30.0,3.52,737.0,149.0,baixa,sim,14324.0,0
+EQ0067,Eletrocardiografo,Siemens,Bloco Operatorio,2024.0,12.6,37.0,3.01,909.0,389.0,baixa,sim,11333.0,0
+EQ0068,Eletrocardiografo,Drager,Bloco Operatorio,2010.0,18.9,27.4,,602.0,362.0,baixa,nao,24372.0,0
+EQ0069,Desfibrilhador,GE Healthcare,Urgencia,2008.0,10.3,31.3,4.44,656.0,687.0,alta,nao,17519.0,0
+EQ0070,Desfibrilhador,Drager,Enfermaria,2023.0,11.2,,2.03,276.0,581.0,baixa,sim,18238.0,0
+EQ0071,Desfibrilhador,GE Healthcare,Bloco Operatorio,2021.0,13.5,31.9,4.23,822.0,218.0,baixa,sim,25224.0,0
+EQ0072,Bomba Infusora,Philips,Bloco Operatorio,2020.0,17.0,38.3,2.63,597.0,421.0,baixa,sim,13881.0,0
+EQ0073,Monitor,Mindray,Imagiologia,2020.0,11.4,26.2,5.16,296.0,295.0,baixa,sim,14731.0,0
+EQ0074,Desfibrilhador,Philips,UCI,2006.0,15.5,30.2,4.91,1324.0,384.0,alta,sim,18358.0,0
+EQ0075,Eletrocardiografo,Mindray,Enfermaria,2011.0,10.4,28.8,4.54,390.0,249.0,baixa,sim,25831.0,1
+EQ0076,Monitor,Philips,Urgencia,2010.0,,31.1,2.74,630.0,543.0,ALTA,sim,12067.0,0
+EQ0077,Bomba Infusora,Mindray,Bloco Operatorio,2021.0,10.0,33.7,4.77,916.0,353.0,alta,nao,21803.0,1
+EQ0078,Ventilador,GE Healthcare,Bloco Operatorio,2013.0,11.7,27.9,,723.0,490.0,baixa,sim,20784.0,0
+EQ0079,Bomba Infusora,Mindray,Imagiologia,2019.0,5.3,29.4,3.66,891.0,641.0,alta,nao,17161.0,0
+EQ0080,Eletrocardiografo,Mindray,Urgencia,2023.0,11.5,44.0,4.13,764.0,390.0,alta,sim,20956.0,0
+EQ0081,Desfibrilhador,Mindray,Bloco Operatorio,2017.0,,38.6,5.08,499.0,611.0,baixa,nao,15931.0,1
+EQ0082,Monitor,Drager,Enfermaria,2022.0,11.8,40.7,,922.0,331.0,alta,sim,24506.0,0
+EQ0083,Monitor,Mindray,Urgencia,2012.0,13.3,32.0,4.43,823.0,312.0,baixa,nao,26148.0,0
+EQ0084,Desfibrilhador,Drager,Bloco Operatorio,2021.0,17.0,36.7,2.82,748.0,327.0,baixa,sim,20078.0,0
+EQ0085,Desfibrilhador,Siemens,Bloco Operatorio,2016.0,16.5,35.6,1.59,823.0,597.0,baixa,Nao,,0
+EQ0086,Desfibrilhador,Philips,UCI,2021.0,6.3,36.5,4.32,562.0,596.0,baixa,sim,19586.0,1
+EQ0087,Ventilador,Philips,Enfermaria,2013.0,14.0,36.1,3.21,755.0,600.0,baixa,sim,22377.0,0
+EQ0088,Ventilador,Drager,Imagiologia,2018.0,14.9,30.3,4.51,399.0,158.0,alta,nao,,1
+EQ0089,Desfibrilhador,Drager,Imagiologia,2011.0,17.4,32.7,,884.0,184.0,alta,sim,22352.0,0
+EQ0090,Ventilador,Philips,Imagiologia,2020.0,8.5,31.2,3.74,835.0,598.0,baixa,sim,13580.0,0
+EQ0091,Ventilador,Siemens,Imagiologia,2013.0,16.7,-15.0,,625.0,383.0,baixa,sim,14010.0,0
+EQ0092,Bomba Infusora,Philips,Bloco Operatorio,2024.0,10.4,34.9,2.49,1170.0,600.0,baixa,sim,10185.0,0
+EQ0093,Bomba Infusora,Mindray,Imagiologia,2006.0,11.7,29.0,3.4,885.0,270.0,alta,sim,16881.0,0
+EQ0094,Monitor,Drager,Imagiologia,2019.0,16.9,28.5,3.86,787.0,392.0,baixa,sim,26700.0,1
+EQ0095,Ventilador,Drager,Enfermaria,2006.0,11.5,35.9,3.15,517.0,209.0,baixa,nao,16153.0,0
+EQ0096,Monitor,GE Healthcare,Urgencia,2018.0,15.8,33.1,3.36,556.0,481.0,baixa,sim,13379.0,0
+EQ0097,Ventilador,Siemens,Imagiologia,2006.0,,44.3,2.42,1118.0,353.0,alta,sim,24732.0,0
+EQ0098,Monitor,Mindray,Imagiologia,2006.0,8.1,35.0,2.03,712.0,310.0,baixa,sim,27486.0,0
+EQ0099,Desfibrilhador,Drager,Imagiologia,2006.0,15.4,37.2,3.61,589.0,558.0,baixa,sim,18868.0,0
+EQ0100,Bomba Infusora,Philips,Enfermaria,2010.0,10.1,43.0,2.64,1069.0,377.0,alta,sim,18758.0,0
+EQ0101,Eletrocardiografo,GE Healthcare,Urgencia,2014.0,13.9,33.0,,272.0,468.0,baixa,sim,18685.0,0
+EQ0102,Desfibrilhador,Siemens,UCI,2021.0,4.7,34.1,2.83,1183.0,321.0,baixa,sim,26473.0,0
+EQ0103,Monitor,Philips,UCI,2013.0,10.4,38.2,2.63,444.0,461.0,alta,sim,21870.0,0
+EQ0104,Eletrocardiografo,GE Healthcare,Imagiologia,2007.0,11.5,35.8,4.92,957.0,367.0,baixa,sim,,0
+EQ0105,Monitor,Mindray,UCI,2024.0,11.4,33.4,3.16,928.0,534.0,alta,nao,14347.0,0
+EQ0106,Bomba Infusora,Drager,Imagiologia,2024.0,7.7,33.1,,979.0,708.0,baixa,sim,8119.0,0
+EQ0107,Desfibrilhador,Mindray,Bloco Operatorio,2009.0,13.2,32.3,2.86,1038.0,405.0,baixa,Nao,18840.0,0
+EQ0108,Eletrocardiografo,Drager,Urgencia,2008.0,10.4,25.4,2.43,946.0,262.0,alta,sim,16028.0,0
+EQ0109,Desfibrilhador,Mindray,Urgencia,2023.0,8.9,27.8,4.19,1162.0,332.0,baixa,sim,12352.0,0
+EQ0110,Bomba Infusora,Siemens,Bloco Operatorio,2015.0,,24.5,3.49,1078.0,383.0,baixa,sim,20249.0,0
+EQ0111,Eletrocardiografo,Siemens,Imagiologia,2016.0,18.0,37.7,2.46,174.0,332.0,baixa,sim,7401.0,0
+EQ0112,Ventilador,Drager,Imagiologia,2009.0,14.4,39.4,1.9,884.0,343.0,alta,sim,20072.0,0
+EQ0113,Monitor,GE Healthcare,Urgencia,2019.0,7.1,38.2,1.62,457.0,769.0,baixa,sim,17583.0,1
+EQ0114,Monitor,Mindray,Urgencia,2006.0,18.4,31.0,2.16,947.0,415.0,alta,sim,21086.0,0
+EQ0115,Monitor,Drager,Urgencia,2018.0,18.2,32.5,,792.0,268.0,alta,sim,19419.0,0
+EQ0116,Ventilador,Mindray,Enfermaria,2013.0,4.7,33.5,2.15,733.0,326.0,baixa,nao,16897.0,0
+EQ0117,Monitor,Siemens,Imagiologia,2011.0,9.2,42.1,2.03,317.0,376.0,baixa,nao,,0
+EQ0118,Monitor,GE Healthcare,Urgencia,2010.0,12.9,27.5,2.4,715.0,272.0,baixa,sim,29231.0,0
+EQ0119,Bomba Infusora,Mindray,Bloco Operatorio,2009.0,11.1,36.5,4.29,846.0,313.0,alta,sim,17053.0,0
+EQ0120,Desfibrilhador,Mindray,Enfermaria,2020.0,9.2,29.7,4.19,471.0,391.0,baixa,sim,21608.0,0
+EQ0121,Desfibrilhador,Mindray,Urgencia,2008.0,11.2,29.2,3.11,1133.0,604.0,baixa,sim,19364.0,0
+EQ0122,Desfibrilhador,Siemens,UCI,2015.0,3.8,37.3,3.68,1454.0,603.0,alta,sim,17307.0,0
+EQ0123,Desfibrilhador,GE Healthcare,Urgencia,2010.0,13.7,31.6,2.32,602.0,530.0,alta,sim,23909.0,0
+EQ0124,Monitor,GE Healthcare,UCI,2014.0,15.2,33.2,3.87,1045.0,160.0,baixa,sim,0.0,0
+EQ0125,Desfibrilhador,Mindray,Bloco Operatorio,2006.0,10.8,39.5,3.07,281.0,692.0,baixa,nao,16539.0,1
+EQ0126,Bomba Infusora,Mindray,Bloco Operatorio,2022.0,10.7,31.6,,1000.0,578.0,baixa,sim,9618.0,1
+EQ0127,Bomba Infusora,Siemens,Imagiologia,2008.0,9.6,42.2,1.91,1492.0,444.0,baixa,sim,19008.0,0
+EQ0128,Monitor,GE Healthcare,Imagiologia,2016.0,13.5,38.3,2.0,507.0,46.0,baixa,sim,15765.0,0
+EQ0129,Eletrocardiografo,Siemens,Enfermaria,2021.0,12.4,34.8,5.53,528.0,663.0,baixa,nao,17052.0,1
+EQ0130,Bomba Infusora,Drager,UCI,2015.0,14.7,35.0,3.83,807.0,377.0,baixa,nao,21090.0,0
+EQ0131,Eletrocardiografo,Siemens,Urgencia,2020.0,13.2,33.7,3.09,794.0,330.0,baixa,nao,5213.0,0
+EQ0132,Monitor,GE Healthcare,UCI,2013.0,15.0,36.8,4.09,460.0,576.0,alta,sim,25410.0,1
+EQ0133,Desfibrilhador,GE Healthcare,Enfermaria,2011.0,15.4,38.4,,979.0,374.0,baixa,sim,17606.0,0
+EQ0134,Eletrocardiografo,GE Healthcare,Imagiologia,2006.0,7.7,32.4,3.27,1096.0,435.0,baixa,sim,27043.0,1
+EQ0135,Desfibrilhador,Mindray,Enfermaria,2018.0,17.4,32.8,3.49,830.0,310.0,baixa,sim,17650.0,0
+EQ0136,Ventilador,GE Healthcare,Imagiologia,2017.0,18.8,38.8,4.89,743.0,596.0,alta,sim,25684.0,0
+EQ0137,Monitor,Siemens,Bloco Operatorio,2022.0,14.3,38.8,1.77,922.0,403.0,baixa,sim,15301.0,0
+EQ0138,Bomba Infusora,Siemens,Bloco Operatorio,2024.0,10.2,35.6,2.26,842.0,381.0,baixa,nao,12867.0,0
+EQ0139,Desfibrilhador,Drager,Imagiologia,2012.0,12.7,37.3,5.63,619.0,225.0,alta,sim,16817.0,1
+EQ0140,Desfibrilhador,Siemens,Imagiologia,2007.0,14.5,33.1,2.59,399.0,403.0,baixa,nao,19026.0,1
+EQ0141,Desfibrilhador,GE Healthcare,Urgencia,2007.0,0.0,35.5,3.12,1007.0,300.0,alta,sim,18761.0,0
+EQ0142,Bomba Infusora,Mindray,Bloco Operatorio,2016.0,12.9,30.7,4.81,728.0,454.0,baixa,sim,11472.0,0
+EQ0143,Desfibrilhador,Mindray,Enfermaria,2021.0,22.2,59.6,11.8,1119.0,244.0,alta,nao,15985.0,0
+EQ0144,Monitor,Mindray,Bloco Operatorio,2009.0,16.6,36.1,2.33,1002.0,404.0,baixa,sim,15661.0,0
+EQ0145,Bomba Infusora,Drager,Enfermaria,2014.0,9.9,32.9,4.08,839.0,311.0,baixa,sim,15698.0,0
+EQ0146,Eletrocardiografo,Mindray,Imagiologia,2021.0,12.3,33.6,5.12,1059.0,247.0,baixa,nao,7898.0,1
+EQ0147,Eletrocardiografo,Mindray,Imagiologia,2010.0,,34.4,3.62,572.0,497.0,baixa,sim,14230.0,0
+EQ0148,Desfibrilhador,Philips,Bloco Operatorio,2021.0,,37.2,2.67,923.0,624.0,alta,sim,26641.0,0
+EQ0149,Monitor,Mindray,Urgencia,2017.0,14.1,26.3,3.44,928.0,741.0,baixa,sim,5474.0,1
+EQ0150,Desfibrilhador,Philips,UCI,2022.0,10.6,28.6,,764.0,623.0,baixa,sim,23797.0,0
+EQ0151,Ventilador,Drager,UCI,2007.0,11.0,29.5,2.78,564.0,349.0,alta,sim,22167.0,1
+EQ0152,Bomba Infusora,GE Healthcare,UCI,2014.0,14.9,26.1,3.07,376.0,447.0,alta,sim,13529.0,0
+EQ0153,Bomba Infusora,Mindray,UCI,2010.0,15.9,40.3,2.63,472.0,347.0,baixa,sim,26437.0,0
+EQ0154,Monitor,Siemens,Enfermaria,2010.0,12.0,36.1,2.08,744.0,373.0,alta,sim,24055.0,1
+EQ0155,Monitor,GE Healthcare,UCI,2012.0,13.2,31.6,1.02,1576.0,383.0,baixa,sim,9431.0,0
+EQ0156,Bomba Infusora,Mindray,Urgencia,2014.0,11.8,34.2,2.68,361.0,421.0,baixa,nao,15180.0,0
+EQ0157,Desfibrilhador,Mindray,UCI,2013.0,15.6,30.5,2.11,537.0,262.0,baixa,sim,21274.0,0
+EQ0158,Monitor,GE Healthcare,Urgencia,2010.0,14.3,37.9,3.63,672.0,288.0,baixa,nao,,0
+EQ0159,Ventilador,Drager,Bloco Operatorio,2005.0,18.8,32.6,3.61,236.0,472.0,alta,sim,16457.0,0
+EQ0160,Monitor,GE Healthcare,UCI,2009.0,18.2,34.5,2.08,421.0,158.0,baixa,nao,13188.0,0
+EQ0161,Monitor,Mindray,Bloco Operatorio,2011.0,6.1,35.4,2.33,574.0,432.0,alta,sim,22026.0,0
+EQ0162,Bomba Infusora,Mindray,Imagiologia,2009.0,11.4,31.8,1.6,580.0,353.0,baixa,sim,16946.0,0
+EQ0163,Desfibrilhador,Drager,Enfermaria,2007.0,16.8,39.4,2.33,1226.0,329.0,baixa,sim,20256.0,0
+EQ0164,Ventilador,GE Healthcare,UCI,2008.0,,34.6,3.51,414.0,388.0,baixa,sim,26775.0,0
+EQ0165,Desfibrilhador,Siemens,UCI,2015.0,13.9,32.0,2.68,1172.0,496.0,alta,sim,21006.0,0
+EQ0166,Eletrocardiografo,Drager,UCI,2012.0,9.9,34.1,2.47,837.0,143.0,baixa,sim,9764.0,0
+EQ0167,Eletrocardiografo,GE Healthcare,Enfermaria,2011.0,10.8,32.6,3.75,296.0,534.0,baixa,sim,20273.0,1
+EQ0168,Eletrocardiografo,Mindray,Bloco Operatorio,2019.0,14.6,41.4,3.37,1279.0,329.0,baixa,nao,23245.0,0
+EQ0169,Eletrocardiografo,Philips,Urgencia,2014.0,7.1,32.7,3.26,865.0,255.0,alta,sim,18356.0,0
+EQ0170,Monitor,Siemens,Bloco Operatorio,2018.0,13.6,29.5,3.6,1085.0,735.0,baixa,sim,24878.0,0
+EQ0171,Ventilador,Mindray,Urgencia,2022.0,11.0,33.3,4.06,574.0,418.0,alta,sim,13716.0,0
+EQ0172,Ventilador,Mindray,Imagiologia,2020.0,11.4,,2.48,741.0,375.0,alta,sim,16649.0,0
+EQ0173,Bomba Infusora,Philips,Imagiologia,2016.0,10.5,33.9,3.72,877.0,509.0,baixa,sim,5765.0,0
+EQ0174,Desfibrilhador,Drager,Bloco Operatorio,2021.0,9.3,33.7,3.08,661.0,617.0,baixa,sim,26006.0,0
+EQ0175,Eletrocardiografo,Siemens,Enfermaria,2017.0,9.5,44.6,3.15,578.0,196.0,baixa,sim,18562.0,1
+EQ0176,Ventilador,Siemens,Bloco Operatorio,2022.0,6.5,35.1,2.55,1010.0,113.0,baixa,sim,16675.0,0
+EQ0177,Bomba Infusora,GE Healthcare,Bloco Operatorio,2008.0,16.8,38.5,,900.0,179.0,baixa,sim,,0
+EQ0178,Bomba Infusora,GE Healthcare,Bloco Operatorio,2015.0,19.6,30.2,3.0,754.0,482.0,alta,sim,27692.0,0
+EQ0179,Desfibrilhador,Philips,Enfermaria,2015.0,9.4,30.9,5.16,791.0,395.0,baixa,sim,21754.0,0
+EQ0180,Ventilador,Drager,UCI,2021.0,7.4,33.2,4.84,798.0,460.0,alta,sim,14947.0,1
+EQ0181,Monitor,Mindray,UCI,2012.0,14.1,30.1,2.88,597.0,621.0,baixa,sim,15506.0,0
+EQ0182,Desfibrilhador,Drager,Urgencia,2020.0,19.0,,4.97,384.0,582.0,alta,sim,28035.0,0
+EQ0183,Desfibrilhador,Philips,Enfermaria,2018.0,14.9,35.2,2.99,578.0,156.0,alta,sim,25633.0,1
+EQ0184,Eletrocardiografo,GE Healthcare,Enfermaria,2014.0,7.3,35.9,3.87,819.0,416.0,alta,sim,14094.0,0
+EQ0185,Ventilador,Drager,UCI,2016.0,14.8,35.6,1.71,922.0,384.0,alta,nao,19705.0,0
+EQ0186,Eletrocardiografo,Mindray,Imagiologia,2022.0,16.1,36.7,2.86,1095.0,389.0,baixa,nao,16195.0,0
+EQ0187,Monitor,GE Healthcare,UCI,2011.0,8.8,33.2,2.7,1311.0,483.0,alta,sim,22410.0,0
+EQ0188,Eletrocardiografo,GE Healthcare,Urgencia,2018.0,11.4,34.7,4.98,841.0,507.0,baixa,sim,16489.0,0
+EQ0189,Bomba Infusora,Siemens,UCI,2099.0,12.7,33.9,4.15,1064.0,428.0,baixa,sim,19369.0,0
+EQ0190,Monitor,Siemens,Urgencia,2017.0,15.0,36.3,3.6,815.0,388.0,baixa,sim,14802.0,0
+EQ0191,Monitor,Drager,Bloco Operatorio,2010.0,9.0,34.5,3.75,256.0,463.0,baixa,sim,30191.0,0
+EQ0192,Monitor,Siemens,Urgencia,2011.0,10.1,37.6,0.76,1161.0,506.0,baixa,nao,14921.0,0
+EQ0193,Eletrocardiografo,Drager,UCI,2006.0,9.9,33.4,4.01,293.0,373.0,alta,nao,18528.0,0
+EQ0194,Monitor,Siemens,Enfermaria,2006.0,10.9,34.0,3.86,366.0,286.0,baixa,nao,11907.0,0
+EQ0195,Bomba Infusora,GE Healthcare,Imagiologia,2014.0,9.2,34.9,3.0,972.0,362.0,baixa,sim,25540.0,0
+EQ0196,Ventilador,GE Healthcare,Enfermaria,2009.0,14.7,38.2,3.13,534.0,442.0,baixa,sim,16881.0,0
+EQ0197,Desfibrilhador,Mindray,Urgencia,2009.0,10.8,30.7,2.64,1080.0,342.0,baixa,nao,10145.0,0
+EQ0198,Eletrocardiografo,Mindray,Bloco Operatorio,2016.0,19.8,30.7,5.02,1285.0,325.0,alta,nao,22856.0,0
+EQ0199,Bomba Infusora,Drager,Bloco Operatorio,2009.0,10.7,29.0,4.31,643.0,308.0,baixa,sim,7635.0,0
+EQ0200,Desfibrilhador,Drager,Enfermaria,2006.0,14.0,30.7,3.23,784.0,225.0,baixa,sim,19501.0,0
+EQ0201,Monitor,Philips,Bloco Operatorio,2007.0,6.4,27.8,2.45,1244.0,495.0,baixa,sim,12479.0,0
+EQ0202,Desfibrilhador,Philips,Imagiologia,2018.0,11.7,25.5,2.74,562.0,537.0,alta,sim,23188.0,0
+EQ0203,Monitor,Drager,Urgencia,2021.0,11.9,31.2,2.39,870.0,528.0,baixa,sim,20089.0,0
+EQ0204,Bomba Infusora,Philips,Enfermaria,2010.0,16.2,36.7,1.79,998.0,421.0,ALTA,nao,15517.0,0
+EQ0205,Monitor,Siemens,Enfermaria,2015.0,14.8,27.7,1.06,1170.0,328.0,baixa,sim,8228.0,0
+EQ0206,Bomba Infusora,Drager,Enfermaria,2019.0,48.0,,1.72,686.0,271.0,baixa,sim,10640.0,1
+EQ0207,Ventilador,Drager,Urgencia,2020.0,13.8,33.3,2.17,1148.0,394.0,alta,sim,14800.0,1
+EQ0208,Bomba Infusora,Siemens,Imagiologia,2021.0,14.8,36.6,,1113.0,367.0,baixa,nao,23008.0,0
+EQ0209,Desfibrilhador,Drager,Enfermaria,2015.0,7.8,26.1,3.95,542.0,295.0,alta,sim,19001.0,0
+EQ0210,Desfibrilhador,Drager,Enfermaria,2008.0,6.1,33.9,2.98,787.0,434.0,alta,sim,18295.0,0
+EQ0211,Monitor,Drager,Urgencia,2024.0,12.3,31.6,4.55,816.0,269.0,baixa,sim,25409.0,1
+EQ0212,Eletrocardiografo,GE Healthcare,UCI,2019.0,3.6,33.7,2.09,1290.0,267.0,baixa,sim,,0
+EQ0213,Bomba Infusora,Mindray,UCI,2018.0,12.0,30.0,0.94,556.0,101.0,alta,sim,22837.0,0
+EQ0214,Bomba Infusora,Siemens,Bloco Operatorio,2007.0,7.4,32.8,2.93,636.0,514.0,baixa,sim,13531.0,0
+EQ0215,Eletrocardiografo,Mindray,UCI,2022.0,16.3,35.0,0.27,521.0,63.0,baixa,sim,21014.0,0
+EQ0216,Ventilador,Siemens,Urgencia,2024.0,12.8,30.5,3.54,590.0,385.0,alta,sim,,0
+EQ0217,Ventilador,Siemens,Bloco Operatorio,2024.0,8.5,33.7,4.33,621.0,599.0,baixa,nao,26697.0,0
+EQ0218,Bomba Infusora,Drager,Urgencia,2019.0,9.5,36.0,4.61,548.0,535.0,baixa,sim,19478.0,0
+EQ0219,Ventilador,GE Healthcare,Imagiologia,2009.0,13.0,26.2,2.24,1329.0,285.0,baixa,sim,19798.0,0
+EQ0220,Monitor,Drager,Bloco Operatorio,2017.0,23.9,60.8,10.41,1410.0,91.0,baixa,sim,25855.0,0
+EQ0221,Eletrocardiografo,Drager,Imagiologia,2019.0,14.3,34.0,2.38,1378.0,153.0,baixa,sim,21326.0,0
+EQ0222,Ventilador,Drager,Imagiologia,2007.0,10.8,38.3,,1131.0,542.0,alta,sim,9284.0,1
+EQ0223,Desfibrilhador,Mindray,Urgencia,2018.0,10.3,34.7,3.39,1123.0,453.0,alta,nao,14564.0,0
+EQ0224,Monitor,Philips,Urgencia,2020.0,14.3,28.5,4.26,1242.0,473.0,baixa,sim,,0
+EQ0225,Desfibrilhador,GE Healthcare,Bloco Operatorio,2010.0,18.1,35.2,2.74,672.0,554.0,baixa,sim,26128.0,0
+EQ0226,Ventilador,Philips,Urgencia,2007.0,9.8,37.0,4.5,563.0,259.0,baixa,sim,,0
+EQ0227,Monitor,Mindray,Imagiologia,2010.0,,39.7,2.29,865.0,394.0,baixa,sim,19795.0,0
+EQ0228,Bomba Infusora,Mindray,UCI,2013.0,5.7,35.1,0.77,547.0,167.0,baixa,sim,19515.0,0
+EQ0229,Ventilador,Philips,Imagiologia,2005.0,18.0,36.3,2.8,598.0,350.0,baixa,sim,15969.0,0
+EQ0230,Ventilador,Siemens,UCI,2021.0,20.8,34.6,5.92,747.0,160.0,alta,sim,10282.0,0
+EQ0231,Monitor,Mindray,UCI,2022.0,11.8,32.9,4.52,842.0,323.0,baixa,sim,21706.0,0
+EQ0232,Ventilador,Philips,Bloco Operatorio,2019.0,8.7,36.3,1.24,738.0,472.0,baixa,sim,21326.0,0
+EQ0233,Desfibrilhador,Philips,UCI,2011.0,15.2,31.6,2.72,414.0,468.0,baixa,sim,12968.0,0
+EQ0234,Desfibrilhador,Siemens,Enfermaria,2009.0,12.3,32.6,3.4,669.0,194.0,alta,sim,8490.0,0
+EQ0235,Desfibrilhador,GE Healthcare,Imagiologia,2017.0,8.8,29.9,1.65,832.0,406.0,alta,sim,13288.0,1
+EQ0236,Desfibrilhador,Siemens,UCI,2016.0,12.2,31.3,2.97,559.0,417.0,alta,nao,16086.0,0
+EQ0237,Monitor,Philips,UCI,2017.0,9.9,34.0,4.43,873.0,715.0,alta,sim,20668.0,0
+EQ0238,Monitor,Siemens,Imagiologia,2012.0,10.1,35.0,4.34,1184.0,125.0,baixa,nao,29826.0,0
+EQ0239,Monitor,Drager,Bloco Operatorio,2020.0,8.4,31.5,1.69,312.0,292.0,alta,sim,29247.0,0
+EQ0240,Bomba Infusora,Philips,Urgencia,2007.0,8.6,39.5,,732.0,696.0,alta,nao,,0
+EQ0241,Desfibrilhador,GE Healthcare,Enfermaria,2013.0,15.0,35.9,2.78,862.0,289.0,alta,sim,6544.0,0
+EQ0242,Ventilador,Mindray,UCI,2006.0,18.9,35.0,0.99,745.0,266.0,alta,sim,30518.0,0
+EQ0243,Bomba Infusora,Drager,UCI,2011.0,11.1,36.1,,-46.0,240.0,alta,sim,,0
+EQ0244,Ventilador,Philips,Urgencia,2021.0,14.1,35.8,,937.0,599.0,baixa,sim,26682.0,0
+EQ0245,Monitor,Drager,Bloco Operatorio,2021.0,12.2,35.7,4.38,725.0,484.0,baixa,sim,15337.0,0
+EQ0246,Ventilador,Drager,UCI,2020.0,7.9,37.6,3.09,873.0,149.0,alta,sim,14986.0,0
+EQ0247,Ventilador,Philips,Enfermaria,2006.0,8.3,32.2,3.48,729.0,664.0,baixa,sim,19966.0,0
+EQ0248,Eletrocardiografo,Drager,Enfermaria,2007.0,8.8,33.6,4.12,1200.0,510.0,alta,sim,13596.0,0
+EQ0249,Monitor,Drager,Urgencia,2005.0,,42.6,3.33,1230.0,308.0,alta,sim,14404.0,0
+EQ0250,Monitor,Philips,Imagiologia,2007.0,8.4,40.2,4.24,119.0,340.0,baixa,sim,16212.0,0
+EQ0251,Desfibrilhador,Philips,Enfermaria,2020.0,13.7,28.6,5.39,881.0,264.0,baixa,sim,11951.0,0
+EQ0252,Desfibrilhador,Mindray,Imagiologia,2007.0,5.7,38.3,3.53,1106.0,393.0,alta,sim,10052.0,0
+EQ0253,Ventilador,Mindray,UCI,2010.0,10.1,29.8,5.76,1081.0,420.0,baixa,sim,21688.0,0
+EQ0254,Eletrocardiografo,Philips,Enfermaria,2006.0,9.0,34.0,2.36,385.0,390.0,baixa,sim,20509.0,0
+EQ0255,Eletrocardiografo,GE Healthcare,UCI,2023.0,13.4,29.1,2.23,579.0,478.0,baixa,Nao,12909.0,1
+EQ0256,Bomba Infusora,Mindray,Imagiologia,2013.0,13.4,31.6,3.34,342.0,654.0,alta,sim,17731.0,0
+EQ0257,Desfibrilhador,Siemens,Urgencia,2023.0,8.8,29.3,4.52,331.0,343.0,baixa,sim,13700.0,0
+EQ0258,Desfibrilhador,GE Healthcare,Bloco Operatorio,2007.0,10.1,34.1,3.67,867.0,303.0,alta,sim,14138.0,0
+EQ0259,Desfibrilhador,Mindray,Enfermaria,2020.0,7.1,36.2,0.96,364.0,468.0,baixa,nao,21999.0,0
+EQ0260,Bomba Infusora,GE Healthcare,Imagiologia,2010.0,14.6,33.8,2.59,824.0,404.0,baixa,sim,14293.0,0
+EQ0261,Ventilador,Mindray,Imagiologia,2014.0,9.6,40.6,1.16,671.0,261.0,baixa,sim,18444.0,0
+EQ0262,Monitor,Drager,Imagiologia,2021.0,6.2,32.4,3.12,1066.0,322.0,baixa,sim,22163.0,0
+EQ0263,Desfibrilhador,Drager,UCI,2021.0,8.0,27.2,3.73,728.0,288.0,alta,nao,24243.0,0
+EQ0264,Ventilador,GE Healthcare,Imagiologia,2012.0,9.5,31.8,3.38,331.0,373.0,alta,sim,884.0,0
+EQ0265,Desfibrilhador,Siemens,UCI,2014.0,20.1,29.7,2.49,904.0,312.0,baixa,nao,7259.0,0
+EQ0266,Desfibrilhador,Siemens,Enfermaria,2009.0,15.4,42.8,3.43,663.0,561.0,baixa,sim,12264.0,0
+EQ0267,Monitor,Mindray,UCI,2005.0,22.6,57.5,9.98,975.0,279.0,baixa,sim,5136.0,0
+EQ0268,Ventilador,Siemens,UCI,2006.0,15.3,34.0,2.72,1072.0,159.0,baixa,sim,20179.0,1
+EQ0269,Desfibrilhador,Siemens,Imagiologia,2006.0,5.0,40.7,4.5,765.0,450.0,baixa,sim,11275.0,1
+EQ0270,Eletrocardiografo,Drager,Enfermaria,2023.0,,31.8,5.25,811.0,412.0,baixa,nao,22126.0,1
+EQ0271,Monitor,Mindray,UCI,2005.0,12.9,28.0,4.33,832.0,423.0,baixa,sim,19930.0,0
+EQ0272,Monitor,Philips,Imagiologia,2019.0,13.8,30.2,3.41,388.0,656.0,alta,sim,18435.0,0
+EQ0273,Ventilador,Drager,UCI,2023.0,15.2,30.7,1.23,971.0,699.0,baixa,nao,,0
+EQ0274,Ventilador,Philips,UCI,2012.0,11.9,32.7,3.15,902.0,360.0,baixa,nao,,0
+EQ0275,Monitor,Mindray,Urgencia,2011.0,19.4,35.2,3.61,1360.0,443.0,baixa,sim,-5000.0,0
+EQ0276,Bomba Infusora,Philips,Bloco Operatorio,2013.0,14.9,40.0,2.6,537.0,665.0,baixa,sim,24142.0,1
+EQ0277,Bomba Infusora,Mindray,Bloco Operatorio,2009.0,12.4,38.6,2.97,797.0,360.0,baixa,sim,12865.0,0
+EQ0278,Monitor,Drager,Urgencia,2022.0,11.4,35.1,2.08,1232.0,400.0,baixa,sim,10929.0,0
+EQ0279,Desfibrilhador,Drager,Urgencia,2024.0,7.4,,,806.0,663.0,baixa,sim,16268.0,1
+EQ0280,Ventilador,Mindray,UCI,2012.0,18.1,37.7,2.35,1123.0,464.0,baixa,sim,22892.0,0
+EQ0281,Monitor,Drager,Imagiologia,2020.0,8.7,37.0,,390.0,632.0,baixa,sim,,0
+EQ0282,Desfibrilhador,Drager,Enfermaria,2018.0,12.7,36.6,2.86,1140.0,200.0,baixa,nao,15900.0,0
+EQ0283,Eletrocardiografo,GE Healthcare,Urgencia,2012.0,4.3,33.9,5.32,588.0,413.0,baixa,sim,,0
+EQ0284,Ventilador,Drager,Bloco Operatorio,2015.0,9.9,33.8,3.07,1036.0,321.0,alta,nao,18109.0,0
+EQ0285,Desfibrilhador,Drager,Imagiologia,2023.0,15.6,,2.05,1364.0,556.0,alta,sim,14701.0,0
+EQ0286,Monitor,GE Healthcare,Urgencia,2023.0,11.3,33.5,4.01,295.0,335.0,alta,sim,19896.0,0
+EQ0287,Monitor,Siemens,Enfermaria,2014.0,15.9,32.8,,611.0,444.0,alta,sim,20796.0,0
+EQ0288,Desfibrilhador,GE Healthcare,Bloco Operatorio,2015.0,7.6,37.4,1.94,1444.0,444.0,baixa,sim,19200.0,1
+EQ0289,Bomba Infusora,Philips,Enfermaria,2024.0,10.7,28.9,3.19,813.0,619.0,baixa,sim,17042.0,1
+EQ0290,Ventilador,Philips,Enfermaria,2007.0,12.2,27.3,3.21,1613.0,291.0,alta,sim,24809.0,0
+EQ0291,Eletrocardiografo,Philips,Urgencia,2021.0,13.3,24.6,2.17,501.0,403.0,baixa,sim,15885.0,0
+EQ0292,Ventilador,Philips,Urgencia,2007.0,14.7,32.1,1.87,1164.0,402.0,baixa,sim,19463.0,0
+EQ0293,Eletrocardiografo,Siemens,UCI,2008.0,12.8,34.8,2.14,1252.0,401.0,baixa,sim,10950.0,0
+EQ0294,Monitor,Drager,Enfermaria,2019.0,17.3,33.2,2.73,888.0,199.0,baixa,sim,26858.0,0
+EQ0295,Ventilador,Drager,UCI,2012.0,19.5,39.8,5.13,1405.0,53.0,baixa,sim,,0
+EQ0296,Eletrocardiografo,GE Healthcare,Enfermaria,2014.0,18.3,34.3,2.07,1351.0,311.0,baixa,sim,25145.0,1
+EQ0297,Monitor,Philips,Bloco Operatorio,2021.0,16.0,37.2,3.35,814.0,525.0,baixa,sim,19900.0,0
+EQ0298,Desfibrilhador,GE Healthcare,Imagiologia,2010.0,16.3,30.6,4.27,612.0,241.0,alta,sim,19342.0,0
+EQ0299,Ventilador,GE Healthcare,UCI,2013.0,22.4,,,476.0,493.0,baixa,sim,27154.0,0
+EQ0300,Eletrocardiografo,Drager,Bloco Operatorio,2010.0,16.9,30.5,3.81,846.0,258.0,alta,sim,15994.0,0
+EQ0301,Bomba Infusora,Philips,Bloco Operatorio,2016.0,7.3,40.1,2.89,701.0,719.0,baixa,sim,,0
+EQ0302,Monitor,Philips,Enfermaria,2017.0,6.3,28.7,3.3,888.0,361.0,baixa,sim,21944.0,1
+EQ0303,Bomba Infusora,GE Healthcare,Bloco Operatorio,2024.0,15.2,37.6,2.77,521.0,427.0,alta,sim,10913.0,0
+EQ0304,Bomba Infusora,Drager,UCI,2012.0,,31.7,4.23,275.0,485.0,alta,sim,12128.0,0
+EQ0305,Desfibrilhador,Mindray,Bloco Operatorio,2021.0,11.6,39.3,,937.0,662.0,alta,sim,18460.0,0
+EQ0306,Ventilador,Drager,Enfermaria,2024.0,17.1,31.4,3.81,409.0,254.0,baixa,sim,23167.0,1
+EQ0307,Desfibrilhador,Drager,Imagiologia,2014.0,,29.6,4.88,1024.0,471.0,baixa,sim,20843.0,0
+EQ0308,Desfibrilhador,Philips,Imagiologia,2014.0,11.8,33.9,4.42,1074.0,380.0,alta,nao,17908.0,0
+EQ0309,Bomba Infusora,Philips,UCI,2009.0,11.1,41.7,4.06,526.0,409.0,baixa,sim,10473.0,0
+EQ0310,Ventilador,Philips,Urgencia,2011.0,7.0,32.4,2.42,323.0,435.0,baixa,sim,21472.0,1
+EQ0311,Bomba Infusora,GE Healthcare,UCI,2010.0,13.9,34.8,2.25,296.0,-80.0,baixa,nao,28784.0,0
+EQ0312,Eletrocardiografo,Drager,Enfermaria,2006.0,9.1,29.1,3.46,745.0,485.0,alta,nao,19364.0,0
+EQ0313,Ventilador,Mindray,UCI,2006.0,11.7,39.6,3.09,707.0,482.0,alta,nao,23955.0,0
+EQ0314,Monitor,Mindray,Bloco Operatorio,2015.0,8.4,28.6,3.35,587.0,340.0,baixa,sim,,0
+EQ0315,Monitor,Mindray,Enfermaria,2023.0,14.2,36.8,1.95,854.0,85.0,alta,sim,,0
+EQ0316,Desfibrilhador,Mindray,Imagiologia,2011.0,10.5,30.3,1.73,892.0,347.0,baixa,sim,16719.0,0
+EQ0317,Bomba Infusora,Siemens,Enfermaria,2018.0,11.6,36.0,1.73,661.0,124.0,baixa,nao,11469.0,1
+EQ0318,Desfibrilhador,Mindray,Urgencia,2022.0,4.0,35.5,2.5,1256.0,394.0,baixa,sim,7672.0,1
+EQ0319,Ventilador,Drager,Enfermaria,2007.0,7.5,33.0,3.14,389.0,388.0,alta,sim,19222.0,0
+EQ0320,Desfibrilhador,Drager,Enfermaria,2015.0,7.6,37.5,3.21,610.0,482.0,baixa,sim,22402.0,1
+EQ0321,Ventilador,Siemens,Enfermaria,2007.0,10.8,32.4,3.43,1052.0,320.0,baixa,sim,22630.0,0
+EQ0322,Monitor,Siemens,Enfermaria,2014.0,8.0,34.8,0.11,405.0,744.0,alta,Sim,,0
+EQ0323,Ventilador,Siemens,UCI,2020.0,12.4,24.4,2.74,711.0,462.0,baixa,sim,7869.0,0
+EQ0324,Desfibrilhador,Drager,Bloco Operatorio,2023.0,17.3,39.9,3.07,1001.0,360.0,baixa,sim,14721.0,1
+EQ0325,Desfibrilhador,Drager,UCI,2016.0,12.2,34.4,2.77,1137.0,297.0,baixa,sim,28499.0,1
+EQ0326,Ventilador,Siemens,Urgencia,2009.0,5.5,31.5,3.0,1596.0,237.0,baixa,sim,20229.0,1
+EQ0327,Monitor,Drager,UCI,2024.0,7.7,26.6,4.38,451.0,429.0,baixa,sim,12260.0,0
+EQ0328,Eletrocardiografo,Drager,UCI,2006.0,14.0,38.4,4.72,923.0,393.0,baixa,sim,14333.0,0
+EQ0329,Eletrocardiografo,Siemens,Urgencia,2006.0,10.1,,4.09,756.0,560.0,baixa,sim,18900.0,0
+EQ0330,Eletrocardiografo,Drager,UCI,2021.0,16.3,,2.24,473.0,406.0,alta,nao,9504.0,0
+EQ0331,Ventilador,GE Healthcare,Enfermaria,2020.0,7.6,30.4,,1002.0,233.0,alta,sim,25123.0,0
+EQ0332,Eletrocardiografo,Drager,UCI,2006.0,5.4,35.0,2.17,677.0,300.0,baixa,sim,16992.0,0
+EQ0333,Eletrocardiografo,GE Healthcare,Imagiologia,2006.0,9.4,36.4,4.12,929.0,350.0,ALTA,sim,14239.0,0
+EQ0334,Monitor,Siemens,Urgencia,2022.0,5.2,30.8,5.13,885.0,285.0,Alta,nao,17817.0,1
+EQ0335,Bomba Infusora,Philips,Urgencia,2017.0,14.1,38.7,,624.0,436.0,baixa,nao,13929.0,0
+EQ0336,Monitor,Philips,Bloco Operatorio,2019.0,9.1,29.5,3.35,489.0,526.0,baixa,sim,16445.0,0
+EQ0337,Eletrocardiografo,GE Healthcare,Urgencia,2008.0,20.5,41.0,5.64,903.0,230.0,baixa,sim,,0
+EQ0338,Bomba Infusora,Siemens,UCI,2024.0,14.2,34.5,2.69,1432.0,466.0,alta,sim,19432.0,0
+EQ0339,Bomba Infusora,Drager,UCI,2011.0,10.3,36.6,3.84,655.0,66.0,baixa,sim,12198.0,1
+EQ0340,Monitor,Mindray,Urgencia,2008.0,10.7,36.8,3.61,456.0,310.0,alta,nao,18656.0,0
+EQ0341,Desfibrilhador,Philips,Enfermaria,2020.0,19.5,32.9,0.5,760.0,505.0,alta,sim,23231.0,0
+EQ0342,Bomba Infusora,Siemens,Imagiologia,2010.0,16.0,43.7,3.94,866.0,468.0,baixa,sim,16578.0,0
+EQ0343,Ventilador,Philips,Imagiologia,2013.0,10.1,37.8,3.51,870.0,446.0,baixa,sim,17207.0,0
+EQ0344,Desfibrilhador,Mindray,Urgencia,2021.0,10.0,36.5,4.33,844.0,391.0,baixa,sim,13268.0,0
+EQ0345,Ventilador,Philips,Urgencia,2018.0,10.8,40.6,,598.0,653.0,baixa,sim,26446.0,0
+EQ0346,Ventilador,Siemens,Imagiologia,2012.0,11.2,37.6,3.22,1137.0,418.0,baixa,sim,10444.0,0
+EQ0347,Monitor,Siemens,Enfermaria,2023.0,10.4,36.1,3.17,1022.0,377.0,baixa,sim,5253.0,0
+EQ0348,Ventilador,Siemens,Bloco Operatorio,2018.0,3.8,32.6,2.14,-15.0,345.0,baixa,sim,22619.0,0
+EQ0349,Desfibrilhador,Mindray,Imagiologia,2011.0,7.1,,5.22,593.0,469.0,baixa,sim,,0
+EQ0350,Bomba Infusora,Siemens,UCI,2017.0,16.5,32.0,4.2,991.0,312.0,alta,sim,5790.0,0
+EQ0351,Eletrocardiografo,Philips,Imagiologia,2016.0,16.7,,3.44,980.0,527.0,alta,sim,26191.0,1
+EQ0352,Ventilador,Philips,Bloco Operatorio,2012.0,10.7,26.0,4.37,912.0,516.0,baixa,sim,25445.0,0
+EQ0353,Eletrocardiografo,GE Healthcare,Bloco Operatorio,2022.0,15.7,31.1,3.37,719.0,646.0,baixa,nao,8594.0,0
+EQ0354,Monitor,Philips,Urgencia,2006.0,12.6,36.0,3.49,384.0,462.0,baixa,sim,10676.0,0
+EQ0355,Ventilador,Philips,Urgencia,2014.0,9.7,33.7,2.4,1434.0,198.0,alta,sim,8372.0,1
+EQ0356,Desfibrilhador,Mindray,UCI,2020.0,8.5,26.4,3.44,659.0,261.0,alta,sim,4468.0,0
+EQ0357,Eletrocardiografo,Philips,Urgencia,2019.0,14.2,34.1,4.0,302.0,566.0,baixa,nao,15184.0,0
+EQ0358,Ventilador,GE Healthcare,Enfermaria,2008.0,17.3,32.5,,952.0,137.0,baixa,sim,,0
+EQ0359,Eletrocardiografo,Siemens,Bloco Operatorio,2009.0,6.3,31.0,2.58,1213.0,412.0,baixa,sim,,0
+EQ0360,Bomba Infusora,Drager,Imagiologia,2012.0,11.3,35.6,2.94,1005.0,377.0,baixa,sim,14752.0,0
+EQ0361,Ventilador,GE Healthcare,Bloco Operatorio,2024.0,15.2,33.9,4.66,1176.0,594.0,alta,sim,,0
+EQ0362,Desfibrilhador,Mindray,UCI,2012.0,13.6,27.9,4.63,538.0,436.0,baixa,nao,20284.0,0
+EQ0363,Ventilador,Siemens,Enfermaria,2009.0,11.0,37.9,2.59,536.0,634.0,baixa,sim,17588.0,0
+EQ0364,Ventilador,Mindray,Bloco Operatorio,2007.0,15.5,35.5,3.63,969.0,398.0,alta,sim,33846.0,1
+EQ0365,Eletrocardiografo,Siemens,Urgencia,2022.0,10.1,35.3,5.01,611.0,121.0,alta,sim,11660.0,0
+EQ0366,Ventilador,GE Healthcare,UCI,2022.0,10.5,26.3,1.66,686.0,428.0,baixa,sim,16975.0,0
+EQ0367,Desfibrilhador,Drager,Imagiologia,2008.0,10.1,27.7,,917.0,240.0,baixa,sim,16054.0,0
+EQ0368,Desfibrilhador,Mindray,Urgencia,2015.0,9.7,33.2,3.51,558.0,461.0,baixa,sim,28962.0,0
+EQ0369,Monitor,Drager,Urgencia,2021.0,9.5,31.7,,1304.0,450.0,alta,sim,12666.0,0
+EQ0370,Desfibrilhador,Drager,UCI,2019.0,14.6,32.4,2.71,864.0,577.0,baixa,sim,18400.0,0
+EQ0371,Ventilador,Drager,Imagiologia,2013.0,9.1,,3.33,715.0,347.0,alta,sim,26622.0,0
+EQ0372,Desfibrilhador,Philips,Urgencia,2024.0,10.3,34.8,,879.0,207.0,baixa,sim,10015.0,0
+EQ0373,Monitor,Drager,Bloco Operatorio,2022.0,13.8,37.0,5.05,699.0,456.0,baixa,sim,12438.0,0
+EQ0374,Bomba Infusora,Philips,Enfermaria,2013.0,10.2,35.3,3.29,504.0,352.0,alta,sim,5844.0,1
+EQ0375,Eletrocardiografo,Mindray,Urgencia,2019.0,17.6,31.6,2.19,787.0,389.0,alta,sim,12353.0,0
+EQ0376,Bomba Infusora,Mindray,Enfermaria,2018.0,14.5,33.7,3.88,722.0,354.0,baixa,sim,13686.0,1
+EQ0377,Eletrocardiografo,Mindray,Imagiologia,2019.0,3.7,31.7,3.71,1247.0,320.0,baixa,sim,25947.0,0
+EQ0378,Eletrocardiografo,Siemens,Imagiologia,2021.0,13.8,43.8,4.19,1066.0,477.0,baixa,sim,16424.0,0
+EQ0379,Desfibrilhador,GE Healthcare,Bloco Operatorio,2012.0,10.1,35.2,2.96,1177.0,321.0,alta,sim,14555.0,0
+EQ0380,Ventilador,Mindray,Enfermaria,2021.0,11.9,28.2,2.45,958.0,321.0,alta,sim,29235.0,0
+EQ0381,Ventilador,Siemens,Urgencia,2020.0,8.5,,3.77,584.0,337.0,alta,nao,11646.0,0
+EQ0382,Desfibrilhador,Siemens,Bloco Operatorio,2021.0,16.8,35.7,3.45,646.0,511.0,baixa,sim,24613.0,0
+EQ0383,Eletrocardiografo,Drager,Enfermaria,2010.0,8.0,34.5,2.62,1471.0,649.0,baixa,sim,26402.0,1
+EQ0384,Desfibrilhador,GE Healthcare,UCI,2021.0,5.3,31.8,2.72,981.0,386.0,alta,sim,17878.0,0
+EQ0385,Monitor,Siemens,Imagiologia,2021.0,4.7,36.3,4.4,813.0,415.0,baixa,nao,11043.0,0
+EQ0386,Bomba Infusora,Siemens,Bloco Operatorio,2006.0,10.1,41.5,2.94,1144.0,701.0,alta,sim,8963.0,0
+EQ0387,Eletrocardiografo,Mindray,Imagiologia,2013.0,16.9,28.3,,683.0,11.0,baixa,nao,18980.0,0
+EQ0388,Desfibrilhador,Philips,UCI,2022.0,15.1,31.4,2.42,1024.0,327.0,alta,sim,18228.0,0
+EQ0389,Desfibrilhador,Mindray,Imagiologia,2012.0,15.7,31.2,,966.0,461.0,baixa,sim,17364.0,0
+EQ0390,Desfibrilhador,Philips,Imagiologia,2013.0,10.5,37.8,2.96,1392.0,339.0,baixa,sim,25025.0,0
+EQ0391,Ventilador,Philips,Urgencia,2012.0,11.3,,6.26,667.0,383.0,baixa,sim,23219.0,0
+EQ0392,Ventilador,Drager,UCI,2009.0,13.8,36.0,3.0,908.0,411.0,baixa,sim,22473.0,0
+EQ0393,Desfibrilhador,Mindray,Imagiologia,2023.0,,36.6,,695.0,479.0,baixa,sim,17502.0,0
+EQ0394,Ventilador,Drager,Urgencia,2023.0,13.1,35.1,4.47,712.0,438.0,alta,sim,15149.0,0
+EQ0395,Eletrocardiografo,Drager,UCI,2018.0,15.3,33.5,3.95,1406.0,513.0,baixa,sim,14224.0,0
+EQ0396,Monitor,Drager,UCI,2015.0,14.9,36.0,3.45,401.0,516.0,baixa,sim,17347.0,0
+EQ0397,Monitor,Drager,UCI,2014.0,13.8,29.9,2.51,725.0,237.0,alta,sim,17491.0,0
+EQ0398,Desfibrilhador,GE Healthcare,Urgencia,2012.0,3.0,33.1,3.21,580.0,427.0,baixa,sim,8838.0,0
+EQ0399,Bomba Infusora,Siemens,UCI,2009.0,1.0,29.4,3.91,957.0,116.0,baixa,sim,25655.0,0
+EQ0400,Monitor,Mindray,Bloco Operatorio,2020.0,7.7,26.6,4.67,1012.0,457.0,baixa,nao,14445.0,0
+EQ0401,Eletrocardiografo,Mindray,Imagiologia,2020.0,9.8,39.7,4.99,734.0,548.0,baixa,sim,13525.0,0
+EQ0402,Monitor,GE Healthcare,Imagiologia,2021.0,15.7,33.3,4.42,766.0,497.0,baixa,nao,267.0,0
+EQ0403,Bomba Infusora,GE Healthcare,Urgencia,2017.0,18.2,38.9,1.63,520.0,200.0,baixa,nao,8720.0,0
+EQ0404,Eletrocardiografo,Drager,UCI,2024.0,11.5,42.5,4.67,569.0,351.0,baixa,sim,23145.0,1
+EQ0405,Monitor,Drager,Enfermaria,2006.0,20.0,29.5,4.88,729.0,416.0,baixa,sim,8834.0,0
+EQ0406,Eletrocardiografo,Philips,UCI,2022.0,14.2,33.5,2.67,1175.0,340.0,baixa,sim,15268.0,1
+EQ0407,Ventilador,Mindray,Bloco Operatorio,2012.0,9.5,34.9,3.56,141.0,578.0,alta,sim,,0
+EQ0408,Eletrocardiografo,Siemens,Bloco Operatorio,2018.0,10.0,37.2,3.85,450.0,335.0,alta,sim,20412.0,0
+EQ0409,Monitor,Siemens,Urgencia,2019.0,18.3,32.3,,397.0,87.0,Baixa,sim,16193.0,0
+EQ0410,Bomba Infusora,GE Healthcare,Urgencia,2007.0,11.7,30.0,3.0,177.0,559.0,baixa,sim,,0
+EQ0411,Eletrocardiografo,Siemens,Bloco Operatorio,2013.0,12.0,31.6,3.41,849.0,550.0,baixa,nao,24410.0,1
+EQ0412,Bomba Infusora,Drager,Bloco Operatorio,2022.0,14.3,37.9,4.79,372.0,549.0,baixa,sim,,0
+EQ0413,Ventilador,Philips,Imagiologia,2017.0,11.7,29.0,4.4,929.0,327.0,baixa,sim,19639.0,0
+EQ0414,Monitor,Mindray,Bloco Operatorio,2012.0,14.2,32.9,2.03,602.0,322.0,alta,sim,,0
+EQ0415,Monitor,Drager,UCI,2006.0,15.3,28.8,3.01,1253.0,588.0,baixa,sim,9438.0,0
+EQ0416,Monitor,Siemens,Enfermaria,2014.0,9.5,25.3,,721.0,591.0,baixa,sim,7676.0,0
+EQ0417,Bomba Infusora,Mindray,Bloco Operatorio,2018.0,15.6,,3.94,452.0,138.0,baixa,sim,20011.0,0
+EQ0418,Desfibrilhador,Philips,Urgencia,2017.0,14.7,35.1,3.61,677.0,438.0,baixa,nao,22632.0,0
+EQ0419,Desfibrilhador,Siemens,UCI,2015.0,18.4,28.5,3.56,823.0,347.0,baixa,sim,4018.0,0
+EQ0420,Ventilador,Siemens,Bloco Operatorio,2018.0,2.9,35.1,1.54,640.0,239.0,baixa,sim,19741.0,0
+EQ0421,Bomba Infusora,Philips,UCI,2013.0,13.4,31.5,3.66,731.0,396.0,baixa,sim,20008.0,1
+EQ0422,Monitor,Mindray,Imagiologia,2009.0,9.1,34.0,4.34,400.0,273.0,alta,sim,17554.0,0
+EQ0423,Bomba Infusora,Drager,Bloco Operatorio,2010.0,12.6,40.5,1.26,322.0,527.0,baixa,sim,9648.0,0
+EQ0424,Ventilador,Philips,Enfermaria,2020.0,14.7,40.5,2.68,526.0,361.0,baixa,sim,14927.0,0
+EQ0425,Eletrocardiografo,Mindray,Urgencia,2018.0,9.9,31.4,,922.0,148.0,alta,sim,16932.0,0
+EQ0426,Eletrocardiografo,Siemens,Enfermaria,2005.0,13.6,28.3,3.16,1123.0,426.0,baixa,sim,22398.0,0
+EQ0427,Monitor,GE Healthcare,UCI,2014.0,13.0,34.3,4.01,735.0,380.0,alta,sim,22123.0,0
+EQ0428,Bomba Infusora,Drager,Imagiologia,2020.0,14.4,31.2,1.46,494.0,655.0,baixa,nao,17642.0,0
+EQ0429,Bomba Infusora,Mindray,Urgencia,2021.0,6.9,36.0,2.86,810.0,191.0,baixa,sim,16358.0,0
+EQ0430,Ventilador,Philips,UCI,2024.0,14.0,35.4,3.08,1024.0,211.0,baixa,sim,12262.0,0
+EQ0431,Bomba Infusora,GE Healthcare,Enfermaria,2007.0,7.6,26.5,3.92,902.0,612.0,baixa,sim,14360.0,0
+EQ0432,Ventilador,Mindray,Imagiologia,2006.0,19.9,39.7,2.86,801.0,395.0,baixa,sim,27851.0,0
+EQ0433,Desfibrilhador,Drager,Bloco Operatorio,2018.0,15.3,35.6,3.37,612.0,574.0,baixa,sim,15116.0,0
+EQ0434,Desfibrilhador,Philips,UCI,2020.0,8.1,39.2,1.4,876.0,564.0,alta,sim,24043.0,0
+EQ0435,Ventilador,Siemens,Bloco Operatorio,2023.0,8.9,34.5,2.98,-7.0,338.0,baixa,sim,19997.0,0
+EQ0436,Ventilador,Philips,Imagiologia,2006.0,10.7,40.5,1.42,1261.0,304.0,baixa,sim,28444.0,1
+EQ0437,Ventilador,GE Healthcare,Urgencia,2013.0,17.3,38.4,,804.0,29.0,alta,sim,26904.0,0
+EQ0438,Monitor,Mindray,Enfermaria,2017.0,10.0,25.9,2.05,679.0,253.0,baixa,sim,16607.0,0
+EQ0439,Bomba Infusora,Siemens,Imagiologia,2006.0,9.2,37.5,5.67,686.0,305.0,alta,sim,21969.0,0
+EQ0440,Ventilador,Philips,UCI,2024.0,11.0,32.7,2.54,755.0,215.0,baixa,sim,27914.0,1
+EQ0441,Monitor,GE Healthcare,Bloco Operatorio,2007.0,11.9,41.0,2.58,464.0,277.0,baixa,sim,,0
+EQ0442,Eletrocardiografo,Drager,Bloco Operatorio,2018.0,16.2,25.6,4.24,1036.0,485.0,baixa,sim,18777.0,0
+EQ0443,Desfibrilhador,GE Healthcare,Urgencia,2005.0,15.0,,5.09,992.0,482.0,alta,sim,25849.0,0
+EQ0444,Ventilador,Philips,UCI,2010.0,15.3,38.3,2.52,420.0,581.0,baixa,sim,24983.0,1
+EQ0445,Bomba Infusora,GE Healthcare,Urgencia,2013.0,11.4,38.7,3.82,763.0,298.0,alta,sim,9385.0,0
+EQ0446,Bomba Infusora,Philips,UCI,2015.0,12.4,27.0,,869.0,432.0,baixa,sim,10235.0,0
+EQ0447,Eletrocardiografo,GE Healthcare,Enfermaria,2023.0,10.1,30.1,2.47,658.0,533.0,baixa,sim,32269.0,0
+EQ0448,Ventilador,Drager,Bloco Operatorio,2006.0,9.6,31.3,3.91,756.0,647.0,baixa,sim,9065.0,0
+EQ0449,Ventilador,Drager,UCI,2018.0,7.6,32.6,2.99,1041.0,608.0,baixa,sim,17893.0,1
+EQ0450,Desfibrilhador,GE Healthcare,UCI,2014.0,,37.2,1.33,1250.0,589.0,baixa,sim,16378.0,0
+EQ0451,Desfibrilhador,Drager,Urgencia,2008.0,7.6,30.4,4.75,1210.0,479.0,baixa,sim,27198.0,0
+EQ0452,Desfibrilhador,GE Healthcare,UCI,2011.0,2.9,34.9,2.5,549.0,498.0,baixa,sim,15134.0,1
+EQ0453,Desfibrilhador,Drager,Imagiologia,2006.0,8.2,34.4,1.97,1013.0,284.0,baixa,sim,18130.0,0
+EQ0454,Ventilador,Drager,UCI,2012.0,7.8,31.7,,690.0,510.0,baixa,sim,20952.0,0
+EQ0455,Ventilador,Philips,UCI,2011.0,10.1,35.6,3.43,760.0,486.0,alta,sim,16436.0,0
+EQ0456,Bomba Infusora,GE Healthcare,Bloco Operatorio,2012.0,12.2,43.8,3.55,869.0,416.0,baixa,sim,22724.0,0
+EQ0457,Eletrocardiografo,Siemens,Enfermaria,2020.0,11.9,32.1,5.37,1153.0,508.0,baixa,sim,25676.0,0
+EQ0458,Ventilador,GE Healthcare,Enfermaria,2010.0,10.4,26.4,3.67,1218.0,497.0,baixa,nao,21576.0,0
+EQ0459,Monitor,Siemens,Urgencia,2016.0,14.2,31.2,2.33,738.0,192.0,baixa,sim,21980.0,0
+EQ0460,Desfibrilhador,Mindray,Bloco Operatorio,2022.0,11.0,35.2,5.34,759.0,331.0,alta,sim,25004.0,0
+EQ0461,Desfibrilhador,Philips,Enfermaria,2022.0,15.7,37.2,2.8,785.0,120.0,baixa,nao,11175.0,0
+EQ0462,Eletrocardiografo,Philips,Bloco Operatorio,2013.0,11.0,39.3,3.85,847.0,263.0,baixa,sim,27664.0,0
+EQ0463,Monitor,GE Healthcare,Imagiologia,2019.0,10.3,32.4,,1006.0,324.0,baixa,nao,18057.0,0
+EQ0464,Eletrocardiografo,Mindray,Urgencia,2020.0,10.1,33.5,3.9,629.0,121.0,alta,sim,17817.0,0
+EQ0465,Bomba Infusora,Philips,Urgencia,2024.0,10.8,39.5,,884.0,338.0,baixa,sim,14990.0,1
+EQ0466,Desfibrilhador,Philips,UCI,2009.0,11.7,36.5,4.19,605.0,414.0,alta,sim,26497.0,0
+EQ0467,Bomba Infusora,Philips,Imagiologia,2022.0,17.7,30.7,3.76,1014.0,392.0,baixa,sim,22269.0,1
+EQ0468,Ventilador,GE Healthcare,UCI,2021.0,17.0,35.1,3.59,1012.0,426.0,alta,Sim,14466.0,0
+EQ0469,Ventilador,Drager,Enfermaria,2014.0,15.0,38.1,4.6,793.0,124.0,baixa,sim,10395.0,0
+EQ0470,Desfibrilhador,Mindray,Bloco Operatorio,2007.0,15.6,25.6,5.49,1109.0,434.0,alta,sim,13423.0,0
+EQ0471,Bomba Infusora,Drager,Enfermaria,2024.0,,39.9,2.05,763.0,250.0,alta,sim,21694.0,0
+EQ0472,Eletrocardiografo,Siemens,Bloco Operatorio,2012.0,10.3,30.5,,1116.0,276.0,baixa,sim,19681.0,0
+EQ0473,Eletrocardiografo,Mindray,UCI,2007.0,12.6,38.9,1.45,701.0,435.0,alta,sim,10923.0,0
+EQ0474,Monitor,Drager,Urgencia,2008.0,14.5,34.2,3.36,142.0,379.0,baixa,sim,15312.0,1
+EQ0475,Ventilador,Siemens,UCI,2016.0,10.3,29.6,2.22,585.0,555.0,baixa,sim,24787.0,0
+EQ0476,Eletrocardiografo,Mindray,UCI,2016.0,13.0,,1.8,1057.0,502.0,baixa,sim,23852.0,1
+EQ0477,Bomba Infusora,GE Healthcare,Imagiologia,2017.0,11.3,26.8,2.98,797.0,312.0,baixa,nao,14451.0,0
+EQ0478,Bomba Infusora,GE Healthcare,Bloco Operatorio,2017.0,11.2,36.2,1.72,780.0,654.0,baixa,sim,21796.0,0
+EQ0479,Bomba Infusora,Philips,Urgencia,2014.0,14.3,,4.24,1075.0,579.0,baixa,sim,19793.0,0
+EQ0480,Monitor,Drager,UCI,2017.0,15.6,,3.53,1136.0,180.0,baixa,sim,14723.0,1
+EQ0481,Desfibrilhador,Philips,Enfermaria,2024.0,4.0,37.4,-0.58,597.0,499.0,alta,nao,,0
+EQ0482,Desfibrilhador,Siemens,Bloco Operatorio,2019.0,,36.5,3.82,1087.0,559.0,baixa,nao,,0
+EQ0483,Eletrocardiografo,Siemens,Urgencia,2015.0,8.8,37.8,2.83,903.0,824.0,baixa,nao,11564.0,0
+EQ0484,Monitor,Drager,Imagiologia,2009.0,10.4,34.3,3.85,12.0,306.0,alta,sim,22659.0,0
+EQ0485,Desfibrilhador,GE Healthcare,UCI,2005.0,8.2,38.6,,495.0,435.0,alta,sim,16272.0,0
+EQ0486,Ventilador,Siemens,Enfermaria,2024.0,14.2,27.7,2.46,440.0,344.0,baixa,sim,9195.0,0
+EQ0487,Monitor,Siemens,Urgencia,2008.0,9.8,28.9,3.03,770.0,222.0,alta,sim,19677.0,0
+EQ0488,Ventilador,GE Healthcare,Urgencia,2023.0,,35.4,1.62,635.0,533.0,baixa,sim,17024.0,1
+EQ0489,Monitor,Philips,Imagiologia,2011.0,16.2,30.6,1.86,1374.0,158.0,alta,sim,12252.0,0
+EQ0490,Monitor,Drager,Bloco Operatorio,2022.0,13.5,38.2,3.22,725.0,118.0,Baixa,sim,25199.0,0
+EQ0491,Ventilador,Philips,UCI,2007.0,8.7,32.2,2.98,985.0,317.0,alta,sim,14684.0,0
+EQ0492,Ventilador,Drager,Bloco Operatorio,2010.0,15.5,32.6,4.38,721.0,239.0,Alta,sim,16549.0,0
+EQ0493,Bomba Infusora,Drager,Bloco Operatorio,2009.0,9.3,37.8,4.33,718.0,197.0,alta,sim,20408.0,0
+EQ0494,Ventilador,Mindray,Enfermaria,2008.0,3.8,35.1,2.78,858.0,369.0,alta,sim,23245.0,0
+EQ0495,Monitor,Philips,UCI,2022.0,8.2,33.9,3.74,926.0,496.0,baixa,sim,13158.0,0
+EQ0496,Desfibrilhador,Mindray,Imagiologia,2017.0,5.6,,3.16,1093.0,355.0,baixa,sim,20559.0,0
+EQ0497,Desfibrilhador,Philips,Urgencia,2012.0,11.2,40.0,4.39,648.0,501.0,baixa,sim,23973.0,0
+EQ0498,Eletrocardiografo,Philips,Bloco Operatorio,2018.0,10.1,28.8,,631.0,291.0,baixa,sim,13242.0,1
+EQ0499,Monitor,Philips,Imagiologia,2023.0,11.9,39.1,2.61,713.0,353.0,baixa,nao,20111.0,0
+EQ0500,Ventilador,GE Healthcare,UCI,2014.0,4.7,25.6,3.09,868.0,451.0,baixa,sim,21189.0,1
+EQ0501,Ventilador,Mindray,Enfermaria,2012.0,8.4,37.9,4.3,1169.0,486.0,alta,sim,17025.0,0
+EQ0502,Bomba Infusora,GE Healthcare,Imagiologia,2010.0,16.5,36.1,3.08,381.0,264.0,baixa,sim,17822.0,0
+EQ0503,Ventilador,GE Healthcare,Imagiologia,2022.0,13.6,34.8,,804.0,483.0,alta,nao,23725.0,1
+EQ0504,Ventilador,Siemens,UCI,2020.0,14.8,36.7,3.39,382.0,532.0,baixa,sim,16634.0,0
+EQ0505,Monitor,Siemens,Enfermaria,2024.0,13.4,28.5,0.55,1161.0,482.0,baixa,sim,10810.0,0
+EQ0506,Monitor,Mindray,Imagiologia,2023.0,,,3.08,238.0,244.0,baixa,sim,11584.0,0
+EQ0507,Monitor,Siemens,UCI,2024.0,11.3,34.1,2.14,498.0,509.0,alta,sim,13279.0,0
+EQ0508,Desfibrilhador,Siemens,UCI,2013.0,12.7,34.3,1.87,514.0,459.0,baixa,sim,17008.0,0
+EQ0509,Desfibrilhador,Philips,UCI,2006.0,20.2,31.4,2.45,849.0,549.0,alta,sim,21467.0,0
+EQ0510,Desfibrilhador,Philips,Bloco Operatorio,2019.0,15.8,30.1,,979.0,449.0,alta,sim,26242.0,0
+EQ0415,Monitor,Drager,UCI,2006.0,15.3,28.8,3.01,1253.0,588.0,baixa,sim,9438.0,0
+EQ0222,Ventilador,Drager,Imagiologia,2007.0,10.8,38.3,,1131.0,542.0,alta,sim,9284.0,1
+EQ0445,Bomba Infusora,GE Healthcare,Urgencia,2013.0,11.4,38.7,3.82,763.0,298.0,alta,sim,9385.0,0
+EQ0296,Eletrocardiografo,GE Healthcare,Enfermaria,2014.0,18.3,34.3,2.07,1351.0,311.0,baixa,sim,25145.0,1
+EQ0232,Ventilador,Philips,Bloco Operatorio,2019.0,8.7,36.3,1.24,738.0,472.0,baixa,sim,21326.0,0
+EQ0131,Eletrocardiografo,Siemens,Urgencia,2020.0,13.2,33.7,3.09,794.0,330.0,baixa,nao,5213.0,0
+EQ0046,Desfibrilhador,Siemens,Enfermaria,2021.0,12.3,34.5,4.08,307.0,448.0,baixa,sim,21450.0,0
+EQ0190,Monitor,Siemens,Urgencia,2017.0,15.0,36.3,3.6,815.0,388.0,baixa,sim,14802.0,0
+EQ0231,Monitor,Mindray,UCI,2022.0,11.8,32.9,4.52,842.0,323.0,baixa,sim,21706.0,0
+EQ0316,Desfibrilhador,Mindray,Imagiologia,2011.0,10.5,30.3,1.73,892.0,347.0,baixa,sim,16719.0,0
+EQ0370,Desfibrilhador,Drager,UCI,2019.0,14.6,32.4,2.71,864.0,577.0,baixa,sim,18400.0,0
+EQ0201,Monitor,Philips,Bloco Operatorio,2007.0,6.4,27.8,2.45,1244.0,495.0,baixa,sim,12479.0,0
+EQ0510,Desfibrilhador,Philips,Bloco Operatorio,2019.0,15.8,30.1,,979.0,449.0,alta,sim,26242.0,0
+EQ0259,Desfibrilhador,Mindray,Enfermaria,2020.0,7.1,36.2,0.96,364.0,468.0,baixa,nao,21999.0,0
+EQ0025,Monitor,Philips,UCI,2019.0,11.6,35.3,2.02,568.0,635.0,baixa,sim,24062.0,0
+EQ0094,Monitor,Drager,Imagiologia,2019.0,16.9,28.5,3.86,787.0,392.0,baixa,sim,26700.0,1
+EQ0188,Eletrocardiografo,GE Healthcare,Urgencia,2018.0,11.4,34.7,4.98,841.0,507.0,baixa,sim,16489.0,0
+EQ0390,Desfibrilhador,Philips,Imagiologia,2013.0,10.5,37.8,2.96,1392.0,339.0,baixa,sim,25025.0,0
+EQ0383,Eletrocardiografo,Drager,Enfermaria,2010.0,8.0,34.5,2.62,1471.0,649.0,baixa,sim,26402.0,1
+EQ0162,Bomba Infusora,Mindray,Imagiologia,2009.0,11.4,31.8,1.6,580.0,353.0,baixa,sim,16946.0,0
+EQ0452,Desfibrilhador,GE Healthcare,UCI,2011.0,2.9,34.9,2.5,549.0,498.0,baixa,sim,15134.0,1
+EQ0233,Desfibrilhador,Philips,UCI,2011.0,15.2,31.6,2.72,414.0,468.0,baixa,sim,12968.0,0
+EQ0459,Monitor,Siemens,Urgencia,2016.0,14.2,31.2,2.33,738.0,192.0,baixa,sim,21980.0,0
+EQ0503,Ventilador,GE Healthcare,Imagiologia,2022.0,13.6,34.8,,804.0,483.0,alta,nao,23725.0,1
+EQ0453,Desfibrilhador,Drager,Imagiologia,2006.0,8.2,34.4,1.97,1013.0,284.0,baixa,sim,18130.0,0
+EQ0151,Ventilador,Drager,UCI,2007.0,11.0,29.5,2.78,564.0,349.0,alta,sim,22167.0,1
+EQ0318,Desfibrilhador,Mindray,Urgencia,2022.0,4.0,35.5,2.5,1256.0,394.0,baixa,sim,7672.0,1
+EQ0389,Desfibrilhador,Mindray,Imagiologia,2012.0,15.7,31.2,,966.0,461.0,baixa,sim,17364.0,0
+EQ0156,Bomba Infusora,Mindray,Urgencia,2014.0,11.8,34.2,2.68,361.0,421.0,baixa,nao,15180.0,0
+EQ0475,Ventilador,Siemens,UCI,2016.0,10.3,29.6,2.22,585.0,555.0,baixa,sim,24787.0,0

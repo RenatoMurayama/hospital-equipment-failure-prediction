@@ -1,0 +1,26 @@
+step,action,detail
+00,load,"equipamentos (540, 14), leituras (1258, 7)"
+01,remove duplicates,30 duplicated rows removed -> 510 unique devices
+01,drop columns (readings),"id_leitura, data_leitura (no predictive value at device level)"
+02,normalise categories (criticidade),"5 -> 2 distinct values ['alta', 'baixa']"
+02,normalise categories (em_uso),"4 -> 2 distinct values ['nao', 'sim']"
+03,impossible -> missing (equipamentos.ano_instalacao),2 values
+03,impossible -> missing (equipamentos.horas_uso_dia),1 values
+03,impossible -> missing (equipamentos.temperatura_operacao_c),1 values
+03,impossible -> missing (equipamentos.custo_aquisicao_eur),1 values
+03,impossible -> missing (equipamentos.consumo_medio_kwh),1 values
+03,impossible -> missing (equipamentos.custo_pecas_eur),3 values
+03,impossible -> missing (equipamentos.custo_mao_obra_eur),1 values
+03,impossible -> missing (leituras.pressao_bar),1 values
+03,impossible -> missing (leituras.corrente_a),9 values
+03,impossible -> missing (leituras.ruido_db),1 values
+03,impossible -> missing (leituras.rpm_motor),1 values
+04,impute median (consumo_medio_kwh),"skew=1.59, median=3.21"
+04,impute median (temperatura_operacao_c),"skew=1.38, median=34.00"
+04,impute mean (symmetric attributes),"ano_instalacao, horas_uso_dia, custo_aquisicao_eur, custo_pecas_eur, custo_mao_obra_eur"
+04,readings,not imputed before aggregation (mean per device ignores missing values)
+05,feature engineering,custo_manutencao_eur = parts + labour (mean 1195.15 EUR)
+06,z-transformation,"mean 0 / std 1 for horas_uso_dia, temperatura_operacao_c, consumo_medio_kwh, custo_aquisicao_eur, custo_manutencao_eur, ano_instalacao"
+07,LOF outliers,"threshold 2.0: removed ['EQ0032', 'EQ0143', 'EQ0220', 'EQ0267'] -> 506 devices"
+08,aggregate readings,511 rows; orphan ids: ['EQ9999']
+08,left join,"506 rows, missing sensor means: {'pressao_media': 5, 'rpm_media': 6, 'corrente_media': 11, 'ruido_media': 9}"
