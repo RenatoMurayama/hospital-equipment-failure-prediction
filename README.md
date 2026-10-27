@@ -36,7 +36,7 @@ This project covers **CRISP-DM phase 3, Data Preparation**: turning two messy ta
 | Devices | 540 rows (30 duplicates) | **506 unique devices** |
 | Tables | 2, with different granularity | **1 integrated table** (17 attributes) |
 | Inconsistent categories | 5 spellings of `criticidade`, 4 of `em_uso` | 2 values each |
-| Impossible values | 21 (e.g. year 2099, 48 h/day, −15 °C, 1500 dB) | 0 |
+| Impossible values | 22 (e.g. year 2099, 48 h/day, −15 °C, 1500 dB) | 0 |
 | Missing values | up to 10.2% per attribute | 0 |
 | Outliers | 4 corrupted records | removed with a data-driven LOF cut |
 | Failure rate (target) | | 15.0% (imbalanced classes) |
@@ -44,10 +44,18 @@ This project covers **CRISP-DM phase 3, Data Preparation**: turning two messy ta
 ### Pipeline
 
 ```
-equipamentos.csv ─► remove duplicates ─► normalise categories ─► impossible → missing ─► impute
-                    (median if skewed) ─► feature engineering ─► z-score ─► LOF outliers ─┐
-                                                                                         ├─► left join ─► impute ─► final CSV
-leituras.csv ─────► drop ids/dates ─► impossible → missing ─► aggregate (mean per device) ─┘
+equipamentos.csv                         leituras.csv
+  1. remove duplicates                     1. drop ids and dates
+  2. normalise categories                  2. impossible -> missing
+  3. impossible -> missing                 3. aggregate (mean per device)
+  4. impute (median if skewed)                        |
+  5. feature engineering                              |
+  6. z-score                                          |
+  7. LOF outliers                                     |
+          |                                           |
+          +------------------ left join --------------+
+                                 |
+                       impute -> final CSV
 ```
 
 | Step | What was done | Why |
